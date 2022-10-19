@@ -1,0 +1,55 @@
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\gen.py，工程路径C:\Users\HP\Desktop\test，参数['contest']，开始于2022-10-18 08:44:05.999118。
+[I]gen.py:sample_copy:130:生成文件`.\.gitignore`
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\gen.py，工程路径C:\Users\HP\Desktop\test，参数['problem', 'traveller']，开始于2022-10-18 08:44:16.901579。
+[E]gen.py:new_dir:154:文件夹层次错误：题目工程只能放在比赛日工程中。
+[I]base.py:deal_args:690:详细用法见文档：https://git.thusaac.com/publish/tuack/wikis。
+[I]base.py:deal_args:691:python 脚本 [[[工作1],工作2],...] [[[选项1] 选项2] ...] [[[参数1] 参数2] ...]
+[I]base.py:deal_args:692:工作必须在参数前面，工作用逗号隔开，选项和参数用空格隔开。
+[I]base.py:deal_args:693:只有有逗号的项目可以用逗号获得多个结果，逗号前后不能有空白符。
+[I]base.py:deal_args:694:这套工具的大多数脚本都可以在比赛、比赛日和题目目录下运行。
+[I]base.py:deal_args:695:选项：
+[I]base.py:deal_args:696:  -i PATH             指定PATH作为工作路径，否则使用当前路径。
+[I]base.py:deal_args:697:  -s                  对于有输出的文件的操作，输出完以后不自动打开文件。
+[I]base.py:deal_args:698:  -p day0/sleep,day2  只对day0/sleep和day2进行本次操作；此路径是基于当前文件夹的，
+[I]base.py:deal_args:699:                      例如：在比赛日目录如day1下，则可以直接指定题目如exam；
+[I]base.py:deal_args:700:                      对于test，还可以指定用户或算法，如day1/problem/vfk/std.cpp。
+[I]base.py:deal_args:701:  -t 6.0              对于test，设置掐断时间为6.0*时间限制，用于对比不同程序的时限。
+[I]base.py:deal_args:702:  -o SYSTEM           对于ren，输出指定操作系统的题面，可选Windows和Linux。
+[I]base.py:deal_args:703:  -l zh-cn,en         对于ren，指定输出语言，不指定默认为zh-cn。
+[I]base.py:deal_args:704:  -w logo.png         对于ren，给PDF添加水印，默认不添加。
+[I]base.py:deal_args:705:  --noi-pas-c         对于ren渲染noi格式，强制在封面添加pas和c。
+[I]base.py:deal_args:706:  -r                  对于dump，不先尝试渲染题面。
+[I]base.py:deal_args:707:  -g                  对于gen，使用git-lfs。
+[I]base.py:deal_args:708:  -d json             对于gen，规定配置文件格式，支持json、yaml，默认yaml。
+[I]base.py:deal_args:709:  -u                  对于test，在linux下使用user time做测试，默认real time。
+[I]gen.py:<module>:356:这个工具用于快速建立一道题目。
+[I]gen.py:<module>:357:支持的工作：
+[I]gen.py:<module>:358:  contest  在当前目录下生成一场比赛，不支持参数。
+[I]gen.py:<module>:359:  n        同contest。
+[I]gen.py:<module>:360:  day      无参数表示在当前目录下生成一个比赛日，比赛日可以是独立的工程；
+[I]gen.py:<module>:361:           有参数表示在当前比赛下依次生成名叫参数1，参数2，…的比赛日，
+[I]gen.py:<module>:362:           有参数必须保证当前目录是比赛。
+[I]gen.py:<module>:363:  d        同day。
+[I]gen.py:<module>:364:  problem  无参数表示在当前目录下生成一道题目，题目可以是独立的工程；
+[I]gen.py:<module>:365:           有参数表示在当前比赛日下依次生成名叫参数1，参数2，…的题目，
+[I]gen.py:<module>:366:           有参数必须保证当前目录是比赛日。
+[I]gen.py:<module>:367:  p        同problem。
+[I]gen.py:<module>:368:  empty    无参数表示在当前目录下生成一道无例子的题目，题目可以是独立的工程；
+[I]gen.py:<module>:369:           有参数表示在当前比赛日下依次生成名叫参数1，参数2，…的题目，
+[I]gen.py:<module>:370:           有参数必须保证当前目录是比赛日。
+[I]gen.py:<module>:371:  e        同empty。
+[I]gen.py:<module>:372:  data     在题目工程的data文件夹中搜索数据并添加到配置文件。
+[I]gen.py:<module>:373:           对于比赛工程和比赛日工程，此操作将应用于所有子题目工程，下同。
+[I]gen.py:<module>:374:  t        同data。
+[I]gen.py:<module>:375:  samples  在题目工程的down文件夹中搜索样例并添加到配置文件。
+[I]gen.py:<module>:376:  s        同samples。
+[I]gen.py:<module>:377:  pre      在题目工程的pre文件夹中搜索预测试数据并添加到配置文件。
+[I]gen.py:<module>:378:  code     在题目工程的非数据文件夹中搜索源代码并添加到配置文件。
+[I]gen.py:<module>:379:  c        同code。
+[I]gen.py:<module>:380:  auto     等于一次性做了上述4件事情。
+[I]gen.py:<module>:381:  a        同auto。
+[I]gen.py:<module>:382:  lfs      用git-lfs维护所有的*.in/out/ans，当数据较大时使用。
+[I]gen.py:<module>:383:  chk      添加一个空的答案校验器或称spj，建议在此基础上修改以兼容。
+[I]gen.py:<module>:384:  prec     对于比赛工程，添加考生须知文件。
+[I]gen.py:<module>:385:  upgrade  升级老版本工程到现在版本的工程。
+[I]gen.py:<module>:386:  u        同upgrade。

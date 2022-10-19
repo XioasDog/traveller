@@ -1,0 +1,45 @@
+args:
+  n: 1000
+  m: 300
+compile:
+  cpp: -O2 -std=c++14
+data:
+- args: {n: 2,m: 100}
+  cases:
+  - 1
+  - 2
+- args: {n: 15,m: 100}
+  cases:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+- args: {n: 1000,m: 300}
+  cases:
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+folder: problem
+memory limit: 512 MiB
+name: traveller
+partial score: true
+samples:
+- cases:
+  - 1
+  - 2
+time limit: 1.0
+title:
+  zh-cn: 踏鞴物语
+type: program
+version: 2

@@ -1,0 +1,569 @@
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\gen.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['problem']，开始于2022-10-18 08:47:54.777055。
+[I]gen.py:sample_copy:130:生成文件`.\.gitignore`
+[I]gen.py:new_dir:180:现在不默认用git-lfs，如需，用`python -m tuack.gen lfs`添加。
+[I]gen.py:sample_copy:130:生成文件`.\data\1.ans`
+[I]gen.py:sample_copy:130:生成文件`.\data\1.in`
+[I]gen.py:sample_copy:130:生成文件`.\down\1.ans`
+[I]gen.py:sample_copy:130:生成文件`.\down\1.in`
+[I]gen.py:sample_copy:130:生成文件`.\pre\1.ans`
+[I]gen.py:sample_copy:130:生成文件`.\pre\1.in`
+[I]gen.py:sample_copy:130:生成文件`.\statement\zh-cn.md`
+[I]gen.py:sample_copy:130:生成文件`.\tables\data.pyinc`
+[I]gen.py:sample_copy:130:生成文件`.\tables\json_data.json`
+[I]gen.py:sample_copy:130:生成文件`.\tables\table.json`
+[I]gen.py:sample_copy:130:生成文件`.\resources\sample.png`
+[I]gen.py:sample_copy:130:生成文件`.\solution\zh-cn.md`
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\test.py，工程路径C:\Users\HP\Desktop\test\traveller，参数[]，开始于2022-10-18 09:56:36.343064。
+[I]test.py:test_problem:319:尝试评测题目``。
+[W]test.py:test_problem:329:题目``缺少`samples`字段，找不到样例数据。
+[I]test.py:test_problem:330:你需要在文件夹`.\down`下按*.in和*.ans格式存放样例数据，
+[I]test.py:test_problem:331:然后使用`python -m tuack.gen samples`添加它们或直接配置`samples`字段。
+[W]test.py:test_problem:333:题目``的`pre`字段为空，找不到预测试数据。
+[I]test.py:test_problem:334:如果这道题目有预测试数据，你需要在文件夹`.\pre`下按*.in和*.ans格式存放预测试数据，
+[I]test.py:test_problem:335:然后使用`python -m tuack.gen pre`在文件夹`.\pre`下搜索预测试数据。
+[I]test.py:test_problem:336:如果这道题目没有预测试数据，你需要删除`conf.*`中的`pre`字段。
+[I]test.py:test_problem:344:共0组样例，0个预测试点，2个测试点，不是打包评测。
+[W]base.py:users_pathed:413:`json.conf`中，`users`项std:{expected:== 100,path:XioasDog:std.cpp}已经过时，但仍可以使用，用`python -m tuack.gen upgrade`升级
+[W]base.py:users_pathed:413:`json.conf`中，`users`项anostd:{expected:== 100,path:Jokers:std.cpp}已经过时，但仍可以使用，用`python -m tuack.gen upgrade`升级
+[W]test.py:test_problem:374:程序`XioasDog/std:{expected`没有设置期望得分。
+[I]test.py:test_problem:375:如果该程序是标程、部分分程序或骗分程序等，需要设置它的`expected`字段。
+[I]test.py:test_problem:376:有多种设置的格式，例如：`== 60`表示该程序应该得到60分。
+[I]test.py:test_problem:377:如果该程序是其他功能程序，例如数据生成器，请将该程序从配置文件中移除。
+[E]test.py:test_problem:396:程序`.\== 100,path:XioasDog:std.cpp}`没有找到。
+[I]test.py:test_problem:397:[Errno 22] Invalid argument: '.\\== 100,path:XioasDog:std.cpp}'
+[I]test.py:test_problem:398:如果该程序是测试程序，请确保该程序存在；如果不是，请将其从`conf.*`中移除。
+[W]test.py:test_problem:374:程序`Jokers/anostd:{expected`没有设置期望得分。
+[I]test.py:test_problem:375:如果该程序是标程、部分分程序或骗分程序等，需要设置它的`expected`字段。
+[I]test.py:test_problem:376:有多种设置的格式，例如：`== 60`表示该程序应该得到60分。
+[I]test.py:test_problem:377:如果该程序是其他功能程序，例如数据生成器，请将该程序从配置文件中移除。
+[E]test.py:test_problem:396:程序`.\== 100,path:Jokers:std.cpp}`没有找到。
+[I]test.py:test_problem:397:[Errno 22] Invalid argument: '.\\== 100,path:Jokers:std.cpp}'
+[I]test.py:test_problem:398:如果该程序是测试程序，请确保该程序存在；如果不是，请将其从`conf.*`中移除。
+[W]test.py:test_problem:461:没有程序区分数据包['1']和['2']。
+[I]test.py:test_problem:462:对每种不同类型的数据，都应当有程序可以被这些数据区分。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\gen.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['samples']，开始于2022-10-18 10:00:19.152300。
+[I]gen.py:find_all_data:49:在题目``下搜索sample_cases数据。
+[I]gen.py:find_all_data:59:发现新数据`.\down\1`。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\test.py，工程路径C:\Users\HP\Desktop\test\traveller，参数[]，开始于2022-10-18 10:00:42.096147。
+[I]test.py:test_problem:319:尝试评测题目``。
+[W]test.py:test_problem:333:题目``的`pre`字段为空，找不到预测试数据。
+[I]test.py:test_problem:334:如果这道题目有预测试数据，你需要在文件夹`.\pre`下按*.in和*.ans格式存放预测试数据，
+[I]test.py:test_problem:335:然后使用`python -m tuack.gen pre`在文件夹`.\pre`下搜索预测试数据。
+[I]test.py:test_problem:336:如果这道题目没有预测试数据，你需要删除`conf.*`中的`pre`字段。
+[I]test.py:test_problem:344:共1组样例，0个预测试点，2个测试点，不是打包评测。
+[W]base.py:users_pathed:413:`json.conf`中，`users`项anostd:{expected:== 100,path:Jokers:std.cpp}已经过时，但仍可以使用，用`python -m tuack.gen upgrade`升级
+[W]base.py:users_pathed:413:`json.conf`中，`users`项std:{expected:== 100,path:XioasDog:std.cpp}已经过时，但仍可以使用，用`python -m tuack.gen upgrade`升级
+[W]test.py:test_problem:374:程序`Jokers/anostd:{expected`没有设置期望得分。
+[I]test.py:test_problem:375:如果该程序是标程、部分分程序或骗分程序等，需要设置它的`expected`字段。
+[I]test.py:test_problem:376:有多种设置的格式，例如：`== 60`表示该程序应该得到60分。
+[I]test.py:test_problem:377:如果该程序是其他功能程序，例如数据生成器，请将该程序从配置文件中移除。
+[E]test.py:test_problem:396:程序`.\== 100,path:Jokers:std.cpp}`没有找到。
+[I]test.py:test_problem:397:[Errno 22] Invalid argument: '.\\== 100,path:Jokers:std.cpp}'
+[I]test.py:test_problem:398:如果该程序是测试程序，请确保该程序存在；如果不是，请将其从`conf.*`中移除。
+[W]test.py:test_problem:374:程序`XioasDog/std:{expected`没有设置期望得分。
+[I]test.py:test_problem:375:如果该程序是标程、部分分程序或骗分程序等，需要设置它的`expected`字段。
+[I]test.py:test_problem:376:有多种设置的格式，例如：`== 60`表示该程序应该得到60分。
+[I]test.py:test_problem:377:如果该程序是其他功能程序，例如数据生成器，请将该程序从配置文件中移除。
+[E]test.py:test_problem:396:程序`.\== 100,path:XioasDog:std.cpp}`没有找到。
+[I]test.py:test_problem:397:[Errno 22] Invalid argument: '.\\== 100,path:XioasDog:std.cpp}'
+[I]test.py:test_problem:398:如果该程序是测试程序，请确保该程序存在；如果不是，请将其从`conf.*`中移除。
+[W]test.py:test_problem:461:没有程序区分数据包['1']和['2']。
+[I]test.py:test_problem:462:对每种不同类型的数据，都应当有程序可以被这些数据区分。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\test.py，工程路径C:\Users\HP\Desktop\test\traveller，参数[]，开始于2022-10-18 10:02:34.748107。
+[I]test.py:test_problem:319:尝试评测题目``。
+[W]test.py:test_problem:333:题目``的`pre`字段为空，找不到预测试数据。
+[I]test.py:test_problem:334:如果这道题目有预测试数据，你需要在文件夹`.\pre`下按*.in和*.ans格式存放预测试数据，
+[I]test.py:test_problem:335:然后使用`python -m tuack.gen pre`在文件夹`.\pre`下搜索预测试数据。
+[I]test.py:test_problem:336:如果这道题目没有预测试数据，你需要删除`conf.*`中的`pre`字段。
+[I]test.py:test_problem:344:共2组样例，0个预测试点，2个测试点，不是打包评测。
+[W]base.py:users_pathed:413:`json.conf`中，`users`项anostd:{expected:== 100,path:Jokers/std.cpp}已经过时，但仍可以使用，用`python -m tuack.gen upgrade`升级
+[W]base.py:users_pathed:413:`json.conf`中，`users`项std:{expected:== 100,path:XioasDog/std.cpp}已经过时，但仍可以使用，用`python -m tuack.gen upgrade`升级
+[W]test.py:test_problem:374:程序`Jokers/anostd:{expected`没有设置期望得分。
+[I]test.py:test_problem:375:如果该程序是标程、部分分程序或骗分程序等，需要设置它的`expected`字段。
+[I]test.py:test_problem:376:有多种设置的格式，例如：`== 60`表示该程序应该得到60分。
+[I]test.py:test_problem:377:如果该程序是其他功能程序，例如数据生成器，请将该程序从配置文件中移除。
+[E]test.py:test_problem:396:程序`.\== 100,path:Jokers/std.cpp}`没有找到。
+[I]test.py:test_problem:397:[Errno 22] Invalid argument: '.\\== 100,path:Jokers/std.cpp}'
+[I]test.py:test_problem:398:如果该程序是测试程序，请确保该程序存在；如果不是，请将其从`conf.*`中移除。
+[W]test.py:test_problem:374:程序`XioasDog/std:{expected`没有设置期望得分。
+[I]test.py:test_problem:375:如果该程序是标程、部分分程序或骗分程序等，需要设置它的`expected`字段。
+[I]test.py:test_problem:376:有多种设置的格式，例如：`== 60`表示该程序应该得到60分。
+[I]test.py:test_problem:377:如果该程序是其他功能程序，例如数据生成器，请将该程序从配置文件中移除。
+[E]test.py:test_problem:396:程序`.\== 100,path:XioasDog/std.cpp}`没有找到。
+[I]test.py:test_problem:397:[Errno 22] Invalid argument: '.\\== 100,path:XioasDog/std.cpp}'
+[I]test.py:test_problem:398:如果该程序是测试程序，请确保该程序存在；如果不是，请将其从`conf.*`中移除。
+[W]test.py:test_problem:461:没有程序区分数据包['1']和['2']。
+[I]test.py:test_problem:462:对每种不同类型的数据，都应当有程序可以被这些数据区分。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\test.py，工程路径C:\Users\HP\Desktop\test\traveller，参数[]，开始于2022-10-18 10:10:02.250327。
+[I]test.py:test_problem:319:尝试评测题目``。
+[W]test.py:test_problem:333:题目``的`pre`字段为空，找不到预测试数据。
+[I]test.py:test_problem:334:如果这道题目有预测试数据，你需要在文件夹`.\pre`下按*.in和*.ans格式存放预测试数据，
+[I]test.py:test_problem:335:然后使用`python -m tuack.gen pre`在文件夹`.\pre`下搜索预测试数据。
+[I]test.py:test_problem:336:如果这道题目没有预测试数据，你需要删除`conf.*`中的`pre`字段。
+[I]test.py:test_problem:344:共1组样例，0个预测试点，2个测试点，是打包评测（共2个包）。
+[W]base.py:users_pathed:413:`json.conf`中，`users`项anostd:{expected:== 100, path:Jokers/std.cpp}已经过时，但仍可以使用，用`python -m tuack.gen upgrade`升级
+[W]base.py:users_pathed:413:`json.conf`中，`users`项std:{expected:== 100, path:XioasDog/std.cpp}已经过时，但仍可以使用，用`python -m tuack.gen upgrade`升级
+[W]test.py:test_problem:374:程序`Jokers/anostd:{expected`没有设置期望得分。
+[I]test.py:test_problem:375:如果该程序是标程、部分分程序或骗分程序等，需要设置它的`expected`字段。
+[I]test.py:test_problem:376:有多种设置的格式，例如：`== 60`表示该程序应该得到60分。
+[I]test.py:test_problem:377:如果该程序是其他功能程序，例如数据生成器，请将该程序从配置文件中移除。
+[E]test.py:test_problem:396:程序`.\== 100, path:Jokers/std.cpp}`没有找到。
+[I]test.py:test_problem:397:[Errno 22] Invalid argument: '.\\== 100, path:Jokers/std.cpp}'
+[I]test.py:test_problem:398:如果该程序是测试程序，请确保该程序存在；如果不是，请将其从`conf.*`中移除。
+[W]test.py:test_problem:374:程序`XioasDog/std:{expected`没有设置期望得分。
+[I]test.py:test_problem:375:如果该程序是标程、部分分程序或骗分程序等，需要设置它的`expected`字段。
+[I]test.py:test_problem:376:有多种设置的格式，例如：`== 60`表示该程序应该得到60分。
+[I]test.py:test_problem:377:如果该程序是其他功能程序，例如数据生成器，请将该程序从配置文件中移除。
+[E]test.py:test_problem:396:程序`.\== 100, path:XioasDog/std.cpp}`没有找到。
+[I]test.py:test_problem:397:[Errno 22] Invalid argument: '.\\== 100, path:XioasDog/std.cpp}'
+[I]test.py:test_problem:398:如果该程序是测试程序，请确保该程序存在；如果不是，请将其从`conf.*`中移除。
+[W]test.py:test_problem:461:没有程序区分数据包['[1]']和['[2]']。
+[I]test.py:test_problem:462:对每种不同类型的数据，都应当有程序可以被这些数据区分。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\test.py，工程路径C:\Users\HP\Desktop\test\traveller，参数[]，开始于2022-10-18 10:11:55.165874。
+[I]test.py:test_problem:319:尝试评测题目``。
+[W]test.py:test_problem:333:题目``的`pre`字段为空，找不到预测试数据。
+[I]test.py:test_problem:334:如果这道题目有预测试数据，你需要在文件夹`.\pre`下按*.in和*.ans格式存放预测试数据，
+[I]test.py:test_problem:335:然后使用`python -m tuack.gen pre`在文件夹`.\pre`下搜索预测试数据。
+[I]test.py:test_problem:336:如果这道题目没有预测试数据，你需要删除`conf.*`中的`pre`字段。
+[I]test.py:test_problem:344:共1组样例，0个预测试点，2个测试点，是打包评测（共2个包）。
+[W]base.py:users_pathed:422:`users`项anostd:{'expected': '== 100', 'path:Jokers/std.cpp': None}不含`path`项
+[W]base.py:users_pathed:422:`users`项std:{'expected': '== 100', 'path:XioasDog/std.cpp': None}不含`path`项
+[W]test.py:test_problem:461:没有程序区分数据包['[1]']和['[2]']。
+[I]test.py:test_problem:462:对每种不同类型的数据，都应当有程序可以被这些数据区分。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数[]，开始于2022-10-18 10:17:37.518159。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:17:53.118527。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[E]base.py:run_exc:998:max() arg is an empty sequence
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 453, in run
+    self.main()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 443, in main
+    self.ren_prob_md_j()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 396, in ren_prob_md_j
+    .write(get_template('problem_base.md.jinja', self.prob.lang())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\HP\Desktop\test\traveller\tmp\problem_base.md.jinja", line 1, in top-level template code
+    {% extends "problem.md.jinja" %}
+  File "C:\Users\HP\Desktop\test\traveller\tmp\problem.md.jinja", line 90, in top-level template code
+    输入的第二行包含一个正整数 $m$，保证 $m \le {{ tl.hn(aargs.max('m')) }}$。
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\tools.py", line 159, in max
+    return max(self.get(key, d, True))
+ValueError: max() arg is an empty sequence
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:35:34.627663。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[E]ren.py:table:183:'args'
+[I]ren.py:table:190:  File ".\tables\data.pyinc", line 3
+[I]ren.py:table:191:	args = datum['args']
+[I]ren.py:table:193:KeyError: 'args'
+[E]base.py:run_exc:998:'args'
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 453, in run
+    self.main()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 444, in main
+    self.ren_prob_rest()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 635, in ren_prob_rest
+    result_md = get_template('problem.md', self.prob.lang()).render(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\HP\Desktop\test\traveller\tmp\problem.md", line 82, in top-level template code
+    {{ table("data", {}) }}
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 638, in <lambda>
+    table = lambda name, options = None : table(pjoin(self.prob.path, 'tables'), name, 'table.'+ table_suf +'.jinja', self.context, options)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 197, in table
+    raise e
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 176, in table
+    table = namespace['render'](context, options, merge_ver, no_merge)
+  File "<string>", line 7, in render
+KeyError: 'args'
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:39:18.881785。
+[E]base.py:load_json:529:文件`.\conf.yaml`错误或子目录下文件错误。
+[I]base.py:load_json:530:mapping values are not allowed here
+  in "<unicode string>", line 10, column 17:
+    -args:{n: 1000,m: 1000}
+                    ^
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:40:01.253096。
+[E]base.py:load_json:529:文件`.\conf.yaml`错误或子目录下文件错误。
+[I]base.py:load_json:530:mapping values are not allowed here
+  in "<unicode string>", line 10, column 19:
+    -args:{n: 1000 , m: 1000}
+                      ^
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:40:23.530700。
+[E]base.py:load_json:529:文件`.\conf.yaml`错误或子目录下文件错误。
+[I]base.py:load_json:530:mapping values are not allowed here
+  in "<unicode string>", line 10, column 22:
+    -args:{ n : 1000 , m : 1000}
+                         ^
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:41:08.804475。
+[E]base.py:load_json:529:文件`.\conf.yaml`错误或子目录下文件错误。
+[I]base.py:load_json:530:mapping values are not allowed here
+  in "<unicode string>", line 10, column 22:
+    -args:{ n : 1000 , m : 1000}
+                         ^
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:42:45.903709。
+[E]base.py:load_json:529:文件`.\conf.yaml`错误或子目录下文件错误。
+[I]base.py:load_json:530:mapping values are not allowed here
+  in "<unicode string>", line 10, column 18:
+    - args:{n: 1000,m: 1000}
+                     ^
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:43:21.149516。
+[E]base.py:load_json:529:文件`.\conf.yaml`错误或子目录下文件错误。
+[I]base.py:load_json:530:mapping values are not allowed here
+  in "<unicode string>", line 11, column 18:
+    - args:{n: 1000,m: 1000}
+                     ^
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:43:39.804781。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[I]ren.py:table:123:渲染表格`.\tables\table.json`，参数{'width': [1, 6]}
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:46:59.449807。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:50:05.153289。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:50:48.049698。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 10:59:39.714000。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[E]base.py:run_exc:998:invalid syntax (<string>, line 13)
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 453, in run
+    self.main()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 444, in main
+    self.ren_prob_rest()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 635, in ren_prob_rest
+    result_md = get_template('problem.md', self.prob.lang()).render(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\HP\Desktop\test\traveller\tmp\problem.md", line 82, in top-level template code
+    {{ table("data", {}) }}
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 638, in <lambda>
+    table = lambda name, options = None : table(pjoin(self.prob.path, 'tables'), name, 'table.'+ table_suf +'.jinja', self.context, options)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 174, in table
+    exec(code, namespace)
+  File "<string>", line 13
+    ]	`	`	`	`	`	`	`	`	`
+     	^
+SyntaxError: invalid syntax
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 11:01:41.384362。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[E]base.py:run_exc:998:invalid syntax (<string>, line 13)
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 453, in run
+    self.main()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 444, in main
+    self.ren_prob_rest()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 635, in ren_prob_rest
+    result_md = get_template('problem.md', self.prob.lang()).render(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\HP\Desktop\test\traveller\tmp\problem.md", line 82, in top-level template code
+    {{ table("data", {}) }}
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 638, in <lambda>
+    table = lambda name, options = None : table(pjoin(self.prob.path, 'tables'), name, 'table.'+ table_suf +'.jinja', self.context, options)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 174, in table
+    exec(code, namespace)
+  File "<string>", line 13
+    ]	`	`	`	`	`	`	`	`	`
+     	^
+SyntaxError: invalid syntax
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 11:01:59.920880。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\doc.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['check']，开始于2022-10-18 11:06:45.022191。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\doc.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['check']，开始于2022-10-18 11:09:27.748778。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tex']，开始于2022-10-18 11:28:29.716207。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tex']，开始于2022-10-18 13:02:29.980980。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tex']，开始于2022-10-18 13:09:21.341724。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-18 13:10:54.702729。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[E]base.py:run_exc:998:pandoc not found
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 451, in run
+    self.check_install()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 475, in check_install
+    base.check_install('pandoc')
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 950, in check_install
+    eval('check_' + pack)()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 832, in check_pandoc
+    raise Exception('pandoc not found')
+Exception: pandoc not found
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-18 13:11:27.448249。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[E]base.py:run_exc:998:pandoc not found
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 451, in run
+    self.check_install()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 475, in check_install
+    base.check_install('pandoc')
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 950, in check_install
+    eval('check_' + pack)()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 832, in check_pandoc
+    raise Exception('pandoc not found')
+Exception: pandoc not found
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-18 13:11:39.096700。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[E]base.py:run_exc:998:pandoc not found
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 451, in run
+    self.check_install()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 475, in check_install
+    base.check_install('pandoc')
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 950, in check_install
+    eval('check_' + pack)()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 832, in check_pandoc
+    raise Exception('pandoc not found')
+Exception: pandoc not found
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['md']，开始于2022-10-18 13:12:21.318882。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 13:13:00.851988。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['thuoj']，开始于2022-10-18 13:13:27.077820。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[E]base.py:run_exc:998:pandoc not found
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 451, in run
+    self.check_install()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 682, in check_install
+    base.check_install('pandoc')
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 950, in check_install
+    eval('check_' + pack)()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 832, in check_pandoc
+    raise Exception('pandoc not found')
+Exception: pandoc not found
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['thuoj']，开始于2022-10-18 13:16:24.161941。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[E]base.py:run_exc:998:pandoc not found
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 451, in run
+    self.check_install()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 682, in check_install
+    base.check_install('pandoc')
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 950, in check_install
+    eval('check_' + pack)()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 832, in check_pandoc
+    raise Exception('pandoc not found')
+Exception: pandoc not found
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['thuoj']，开始于2022-10-18 21:11:53.903326。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[E]base.py:run_exc:998:pandoc not found
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 451, in run
+    self.check_install()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 682, in check_install
+    base.check_install('pandoc')
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 950, in check_install
+    eval('check_' + pack)()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 832, in check_pandoc
+    raise Exception('pandoc not found')
+Exception: pandoc not found
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['thuoj']，开始于2022-10-18 21:12:37.037780。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[E]base.py:run_exc:998:pandoc not found
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 451, in run
+    self.check_install()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 682, in check_install
+    base.check_install('pandoc')
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 950, in check_install
+    eval('check_' + pack)()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 832, in check_pandoc
+    raise Exception('pandoc not found')
+Exception: pandoc not found
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['thuoj']，开始于2022-10-18 21:13:30.342056。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[E]base.py:run_exc:998:pandoc not found
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 451, in run
+    self.check_install()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 682, in check_install
+    base.check_install('pandoc')
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 950, in check_install
+    eval('check_' + pack)()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 832, in check_pandoc
+    raise Exception('pandoc not found')
+Exception: pandoc not found
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['thuoj']，开始于2022-10-18 21:13:46.536892。
+[E]base.py:check_pandoc:827:格式转换工具pandoc没有安装。
+[I]base.py:check_pandoc:829:Windows用户去官方网站下载安装，安装好后把pandoc.exe所在路径添加到环境变量PATH中。
+[E]base.py:run_exc:998:pandoc not found
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 451, in run
+    self.check_install()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 682, in check_install
+    base.check_install('pandoc')
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 950, in check_install
+    eval('check_' + pack)()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 832, in check_pandoc
+    raise Exception('pandoc not found')
+Exception: pandoc not found
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['tuoj']，开始于2022-10-18 21:27:15.598542。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 tuoj 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-18 21:28:20.034403。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 noi 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[I]ren.py:ren_day_pdf:568:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:589:开始使用xelatex渲染题面。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-18 21:36:08.304645。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 noi 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[I]ren.py:ren_day_pdf:568:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:589:开始使用xelatex渲染题面。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-18 21:38:58.875361。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 noi 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{}
+[I]ren.py:ren_day_pdf:568:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:589:开始使用xelatex渲染题面。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-18 21:45:39.989406。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 noi 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{'width': [3, 1]}
+[E]base.py:run_exc:998:list object has no element 2
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 453, in run
+    self.main()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 629, in main
+    self.ren_day()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 615, in ren_day
+    self.tex_problems.append(self.ren_prob_tex())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 532, in ren_prob_tex
+    ret = get_template(key + '.tex.jinja', self.prob.lang()).render(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\HP\Desktop\test\traveller\tmp\ceffcb57-5fa0-4e1a-a0ef-7996e76f25e3.tex.jinja", line 1, in top-level template code
+    {{ table("data", {'width': [3, 1]}) }}
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 535, in <lambda>
+    table = lambda name, options = None : table(pjoin(self.prob.path, 'tables'), name, 'table.tex.jinja', self.context, options)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 213, in table
+    ret = get_template(temp, context['prob'].lang()).render(context, table = table, cnt = cnt, width = max_len, options = options)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\HP\Desktop\test\traveller\tmp\table.tex.jinja", line 26, in top-level template code
+    >{ \hsize={{ tools.float(options['width'][i]) / sum_width }} \hsize \centering }X
+jinja2.exceptions.UndefinedError: list object has no element 2
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-18 21:46:16.298263。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 noi 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{'width': [1, 1, 1]}
+[I]ren.py:ren_day_pdf:568:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:589:开始使用xelatex渲染题面。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-19 08:45:50.443396。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 noi 
+[E]base.py:run_exc:998:[Errno 2] No such file or directory: '.\\down\\1.ans'
+[I]base.py:run_exc:999:Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\base.py", line 996, in run_exc
+    return (True, func())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 453, in run
+    self.main()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 629, in main
+    self.ren_day()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 614, in ren_day
+    self.ren_prob_md_j()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 396, in ren_prob_md_j
+    .write(get_template('problem_base.md.jinja', self.prob.lang())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\HP\Desktop\test\traveller\tmp\problem_base.md.jinja", line 1, in top-level template code
+    {% extends "problem.md.jinja" %}
+  File "C:\Users\HP\Desktop\test\traveller\tmp\problem.md.jinja", line 44, in top-level template code
+    {{ self.sample_text() }}
+  File "C:\Users\HP\Desktop\test\traveller\tmp\problem_base.md.jinja", line 66, in block 'sample_text'
+    {% block sample_output_text %}
+  File "C:\Users\HP\Desktop\test\traveller\tmp\problem_base.md.jinja", line 78, in block 'sample_output_text'
+    {{ down_file((vars['sample_id'].__str__() if 'sample_id' in vars else '1') + '.ans') }}
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py", line 291, in down_file
+    for idx, line in enumerate(open(fname, 'rb')):
+FileNotFoundError: [Errno 2] No such file or directory: '.\\down\\1.ans'
+
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-19 08:46:23.822189。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 noi 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{'width': [1, 1, 1]}
+[I]ren.py:ren_day_pdf:568:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:589:开始使用xelatex渲染题面。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-19 08:48:03.193479。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 noi 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{'width': [1, 1, 1]}
+[I]ren.py:ren_day_pdf:568:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:589:开始使用xelatex渲染题面。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-19 08:50:21.497963。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 noi 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{'width': [1, 1, 1]}
+[I]ren.py:ren_day_pdf:568:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:589:开始使用xelatex渲染题面。
+[I]base.py:init:759:脚本C:\Users\HP\AppData\Local\Programs\Python\Python38-32\lib\site-packages\tuack\ren.py，工程路径C:\Users\HP\Desktop\test\traveller，参数['noi']，开始于2022-10-19 08:54:05.641291。
+[I]ren.py:ren_prob_md_j:340:渲染题目题面 noi 
+[I]ren.py:table:123:渲染表格`.\tables\data.pyinc`，参数{'width': [1, 1, 1]}
+[I]ren.py:ren_day_pdf:568:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:589:开始使用xelatex渲染题面。
